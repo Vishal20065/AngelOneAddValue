@@ -97,6 +97,7 @@ const Profits = () => {
     { title: "Name", dataIndex: "name", key: "name" },
     { title: "Date", dataIndex: "date", key: "date" },
     { title: "Equity", dataIndex: "equity", key: "equity" },
+    { title: "New date", dataIndex: "datefilter", key: "datefilter" },
     { title: "Realised P&L", dataIndex: "realisedPl", key: "realisedPl" },
     { title: "Charges", dataIndex: "charges", key: "charges" },
     { title: "Net Realised", dataIndex: "netRealised", key: "netRealised" },
@@ -170,6 +171,11 @@ const Profits = () => {
 
           <Form.Item name="equity" label="Equity">
             <Input placeholder="Enter Equity" />
+          </Form.Item>
+
+
+           <Form.Item name="datefilter" label="datefilter">
+            <Input placeholder="Enter Date" />
           </Form.Item>
 
           <Form.Item name="realisedPl" label="Realised P&L">
